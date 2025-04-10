@@ -1,0 +1,153 @@
+
+ .navbar_color
+ {
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+ }
+
+ .intro
+ {
+    margin-left: 20%;
+    margin-top: 30%;
+ }
+ .btn_about
+ {
+    margin-left: 25%;
+    margin-top: 1%;
+    border-radius: 5px;
+ }
+ .btn_about:hover
+ {
+   background-color: black;
+   color: white;
+ }
+ .image{
+   border-radius: 50%;
+   height: 50%;
+   width: 50%;
+   margin-top: 20%;
+ }
+ /* ABOUT PAGE */
+
+ .image_about
+ {
+    height: 65%;
+    width: 75%;
+    margin-top: 15%;
+    margin-left: 20%;
+ }
+ .about_info
+ {
+    margin-top: 8%;
+ }
+ .about_personal_info
+ {
+    margin-left: 20%;
+    margin-top: -4.8%;
+ }
+ .about_phone
+ {
+    margin-left: 19%;
+    margin-top: -5%;
+ }
+ .about_city
+ {
+    margin-left: 20%;
+    margin-top: -4.7%;
+ }
+.about_age
+{
+    margin-left: 50%;
+    margin-top: -16%;
+}
+.about_age1
+{
+    margin-left:68% ;
+    margin-top: -5%;
+}
+.about_degree
+{
+    margin-left: 50%;
+    margin-top:3%;
+}
+.about_degree1
+{
+    margin-left: 68%;
+    margin-top:-5%;
+}
+.about_email
+{
+    margin-left: 50%;
+    margin-top: 2%;
+}
+.about_email1
+{
+    margin-left: 68%;
+    margin-top: -5%;
+}
+
+/* SKILL PAGE START */
+
+
+
+.skill-row
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+}
+.skill-info {
+   flex: 1;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+ }
+.skill-card
+{
+   border-radius: 12px;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+   transition: 0.3s;
+   width: 45%;
+}
+.skill-card:hover {
+   transform: translateY(-5px);
+   background-color: #e3f2fd;
+ }
+ .skill-card i {
+   font-size: 2rem;
+ }
+ .skill-card-last
+ {
+   width: 100%;
+   border-radius: 12px;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+   transition: 0.3s;
+ }
+ .skill-card-last:hover{
+   transform: translateY(-5px);
+   background-color: #e3f2fd;
+ }
+ .skill-image
+ {
+   width: 38%;
+   height: 80%;
+   object-fit: cover;
+   border-radius: 30%;
+   margin-left: 1%;
+ }
+ @media (max-width: 768px) {
+   .skill-card {
+     width: 100%;
+   }
+
+   .skill-row {
+     flex-direction: column;
+     align-items: center;
+   }
+
+   .skill-image {
+     margin-top: 1rem;
+   }
+}

@@ -1,0 +1,117 @@
+/* ABOUT ME PAGE */
+/* CONTACT US PAGE */
+html, body {
+    height: 100%;              /* Make sure body and html take full height of the viewport */
+    margin: 0;                 /* Remove any default margin */
+    padding: 0;                /* Remove any default padding */
+    overflow: hidden;          /* Prevent scrolling */
+  }
+
+  /* CONTACT US FORM */
+  .address_icon
+  {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  .address
+  {
+    margin-left: 10%;
+    margin-top: -5%;
+  }
+  .address_para
+  {
+    margin-left: 10%;
+  }
+  .callme_icon
+  {
+    margin-top: 4%;
+    margin-left: 2%;
+  }
+  .callme
+  {
+    margin-top: -5.5%;
+    margin-left: 10%;
+  }
+  .callme_para
+  {
+    margin-left: 10%;
+  }
+  .email_icon
+  {
+    margin-top: 4%;
+    margin-left: 2%;
+  }
+  .email
+  {
+    margin-top: -5.5%;
+    margin-left: 10%;
+  }
+  .email_para
+  {
+    margin-left: 10%;
+  }
+  .map
+  {
+    height: 60% ;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .label_name
+  {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  .text_name
+  {
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 40px;
+    width: 40%;
+  }
+  .label_email
+  {
+    margin-top: -12%;
+    margin-left: 52%;
+  }
+  .text_email
+  {
+    margin-top: 2%;
+    margin-left: 52%;
+    height: 40px;
+    width: 40%;
+  }
+  .label_subject
+  {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  .text_subject
+  {
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 40px;
+    width: 90%;
+  }
+  .label_message
+  {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  .text_message
+  {
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 150px;
+    width: 90%;
+  }
+  .send_button
+  {
+    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-left: 40%;
+    width: 20%;
+    height: 40px;
+    background-color: #94bbe9;
+    border-radius: 20px;
+  }
