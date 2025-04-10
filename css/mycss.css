@@ -5,16 +5,38 @@ background: rgb(238,174,202);
 background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
  }
 
+ nav ul li a{
+  text-decoration: none;
+ }
+ nav ul li a:active
+ {
+  text-decoration: underline;
+  
+ }
+ 
  .intro
  {
     margin-left: 20%;
     margin-top: 30%;
+    opacity: 0;
+    transform:scale(2);
+    filter: blur(10px);
+    animation: zoomFromCenter 1s ease-out forwards;
+    animation-delay: 0.3s;
  }
+ @keyframes zoomFromCenter {
+  to {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+  }
+}
  .btn_about
  {
     margin-left: 25%;
     margin-top: 1%;
-    border-radius: 5px;
+    border-radius: 10px;
+    background-color: #94bbe9;
  }
  .btn_about:hover
  {
@@ -27,69 +49,19 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
    width: 50%;
    margin-top: 20%;
  }
- /* ABOUT PAGE */
+ 
 
- .image_about
- {
-    height: 65%;
-    width: 75%;
-    margin-top: 15%;
-    margin-left: 20%;
- }
- .about_info
- {
-    margin-top: 8%;
- }
- .about_personal_info
- {
-    margin-left: 20%;
-    margin-top: -4.8%;
- }
- .about_phone
- {
-    margin-left: 19%;
-    margin-top: -5%;
- }
- .about_city
- {
-    margin-left: 20%;
-    margin-top: -4.7%;
- }
-.about_age
-{
-    margin-left: 50%;
-    margin-top: -16%;
-}
-.about_age1
-{
-    margin-left:68% ;
-    margin-top: -5%;
-}
-.about_degree
-{
-    margin-left: 50%;
-    margin-top:3%;
-}
-.about_degree1
-{
-    margin-left: 68%;
-    margin-top:-5%;
-}
-.about_email
-{
-    margin-left: 50%;
-    margin-top: 2%;
-}
-.about_email1
-{
-    margin-left: 68%;
-    margin-top: -5%;
-}
 
 /* SKILL PAGE START */
 
 
-
+.draw_line
+  {
+    display: inline-block;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
 .skill-row
 {
    display: flex;

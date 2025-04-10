@@ -1,13 +1,13 @@
-/* ABOUT ME PAGE */
-/* CONTACT US PAGE */
-html, body {
-    height: 100%;              /* Make sure body and html take full height of the viewport */
-    margin: 0;                 /* Remove any default margin */
-    padding: 0;                /* Remove any default padding */
-    overflow: hidden;          /* Prevent scrolling */
-  }
-
+  
   /* CONTACT US FORM */
+
+  .draw_line
+  {
+    display: inline-block;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
   .address_icon
   {
     margin-top: 2%;
